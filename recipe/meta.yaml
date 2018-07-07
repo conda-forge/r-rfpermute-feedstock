@@ -25,6 +25,9 @@ requirements:
   build:
   host:
     - r-base
+    - r-dplyr
+    - r-tidyr
+    - r-viridis
     - r-abind
     - r-ggplot2
     - r-gridextra
@@ -33,6 +36,9 @@ requirements:
     - r-swfscmisc >=1.1.1
   run:
     - r-base
+    - r-dplyr
+    - r-tidyr
+    - r-viridis
     - r-abind
     - r-ggplot2
     - r-gridextra
