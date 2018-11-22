@@ -13,9 +13,9 @@ source:
   sha256: 33d76e20c905b349536e468f8a66f7a5642e9323edd30a4bd951b22691db1ba5
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -69,8 +69,7 @@ about:
     predictor variable and p-value of observed. Provides summary and visualization functions
     for randomForest results.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
