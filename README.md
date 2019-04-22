@@ -7,7 +7,7 @@ Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Estimate significance of importance metrics for a Random Forest model by permuting the response variable. Produces null distribution of importance metrics for each predictor variable and p-value of observed. Provides summary and visualization functions for randomForest results.
+Summary: Estimate significance of importance metrics for a Random Forest model by permuting the response variable. Produces null distribution of importance metrics for each predictor variable and p-value of observed. Provides summary and visualization functions for 'randomForest'  results.
 
 
 
@@ -118,11 +118,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@nick-youngblut](https://github.com/nick-youngblut/)
 
