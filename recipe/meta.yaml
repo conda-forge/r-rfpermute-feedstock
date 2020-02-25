@@ -1,4 +1,4 @@
-{% set version = '2.1.7' %}
+{% set version = "2.1.81" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rfPermute_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rfPermute/rfPermute_{{ version }}.tar.gz
-  sha256: cd9c0d46e415832b868e92580a7c28e76cbc1e688f5b1e72534f36b152ed0f36
+  sha256: ca8436a04de6ac999b006b1cf433c137aedcc5f340f6a5d99472ed2247265355
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -62,12 +62,10 @@ test:
 about:
   home: https://github.com/EricArcher/rfPermute
   license: GPL (>= 2)
-  summary: Estimate significance of importance metrics for a Random Forest model by permuting
-    the response variable. Produces null distribution of importance metrics for each
-    predictor variable and p-value of observed. Provides summary and visualization functions
-    for 'randomForest'  results.
+  summary: Estimate significance of importance metrics for a Random Forest model by permuting the response variable. Produces null distribution of importance metrics
+    for each predictor variable and p-value of observed. Provides summary and visualization functions for 'randomForest'  results.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
