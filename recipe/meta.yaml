@@ -1,4 +1,4 @@
-{% set version = "2.2" %}
+{% set version = "2.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rfPermute_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rfPermute/rfPermute_{{ version }}.tar.gz
-  sha256: 6ea79bb003dfbba3a7bd44575c541fb9ca8e27df47fcb7606919cef3303d27b9
+  sha256: c755bffe63e41fb07a09edb6bbb9b9d8236fcc41dade46312880b6e75808f740
 
 build:
   merge_build_host: true  # [win]
