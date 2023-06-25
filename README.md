@@ -1,11 +1,11 @@
-About r-rfpermute
-=================
+About r-rfpermute-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rfpermute-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/EricArcher/rfPermute
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rfpermute-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimate significance of importance metrics for a Random Forest model by permuting the response variable. Produces null distribution of importance metrics for each predictor variable and p-value of observed. Provides summary and visualization functions for 'randomForest'  results.
 
