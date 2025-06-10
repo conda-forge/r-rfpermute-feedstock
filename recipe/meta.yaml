@@ -1,4 +1,4 @@
-{% set version = "2.5.4" %}
+{% set version = "2.5.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rfPermute_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rfPermute/rfPermute_{{ version }}.tar.gz
-  sha256: d4026baee529c149f6485d7bc9a633d35bdb2e23145d01eec417e61b545452c8
+  sha256: d01d0217f1686bffd1c788e9b74848cfd33127aaabf8b4784c605283f1da860a
 
 build:
   number: 0
